@@ -1,2 +1,2 @@
 # jamesgasek.github.io
-**Personal Websites**
+**Personal Website**

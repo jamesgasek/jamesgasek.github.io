@@ -22,12 +22,12 @@
 }
 .headshot{
     margin:auto;
-    width: 10vw;
+    width: 15vw;
     border-radius: 50%;
 }
 .name{
     font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: 800;
+    font-weight:800;
     font-size: 35px;
     color: gainsboro;
     display: block;
@@ -39,6 +39,15 @@
 .socialImg{
     width:10%;
 
+}
+.header{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight:bolder;
+    font-size: 50px;
+    color: gainsboro;
+    display: block;
+    margin-left: 5vw;
+    margin-top: 5vh;
 }
 body{
     background-color: rgb(64, 64, 64);

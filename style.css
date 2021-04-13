@@ -22,7 +22,7 @@
 }
 .headshot{
     margin:auto;
-    width: 15vw;
+    width: 13vw;
     border-radius: 50%;
 }
 .name{
@@ -38,6 +38,8 @@
 }
 .socialImg{
     width:10%;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 .header{

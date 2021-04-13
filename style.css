@@ -4,27 +4,40 @@
     grid-gap: 0px;
 }
 .left{
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(64, 64, 64);
     height:100vh;
     width:20vw;
+    display: flex;
+    align-items: center;
+
 }
 .right{
     background-color: rgb(42, 42, 42);
     height:100vh;
-    width:100vw;
+    width:80vw;
     border-width: 0px;
     border-style: solid;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     border-color: cyan;
     
 
 
 }
 .headshot{
+    display: block;
+    margin:auto;
     width: 10vw;
+    border-radius: 50%;
+    transform: translate(40%,-80%);
+}
+.name{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 800;
+    font-size: 35px;
+    color: gainsboro;
 }
 body{
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(64, 64, 64);
     overflow: hidden;
     margin: 0;
     padding: 0;

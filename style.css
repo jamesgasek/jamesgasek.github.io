@@ -4,7 +4,7 @@
     grid-gap: 0px;
 }
 .left{
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(42, 42, 42);
     height:100vh;
     width:20vw;
     display: flex;
@@ -12,7 +12,7 @@
 
 }
 .right{
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(27, 27, 27);
     height:100vh;
     width:80vw;
     border-width: 0px;
@@ -45,14 +45,26 @@
 .header{
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight:bolder;
-    font-size: 50px;
+    font-style: italic;
+    font-size: 70px;
     color: gainsboro;
     display: block;
     margin-left: 5vw;
     margin-top: 5vh;
+    margin-bottom: 0;
+}
+.content{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight:bold;
+    font-size: 25px;
+    color: gainsboro;
+    display: block;
+    margin: 5vw;
+    margin-top: 2vh;
+
 }
 body{
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(42, 42, 42);
     overflow: hidden;
     margin: 0;
     padding: 0;

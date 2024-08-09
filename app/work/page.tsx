@@ -3,15 +3,8 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Work',
-  description: 'A summary of my work and contributions.',
+  description: 'A showcase of my skills and accomplishments.',
 };
-
-async function Stars() {
-  let res = await fetch('https://api.github.com/repos/vercel/next.js');
-  let json = await res.json();
-  let count = Math.round(json.stargazers_count / 1000);
-  return `${count}k stars`;
-}
 
 export default function WorkPage() {
   return (
@@ -19,98 +12,119 @@ export default function WorkPage() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          On a mission to build products developers{' '}
-          <Link href="/blog/developer-experience">love</Link>, and along the
-          way, teach the next generation of developers. Here's a summary of my
-          work so far.
+          I'm dedicated to pushing the boundaries of software engineering and making a significant impact in the tech industry. Here's an overview of my professional journey and key projects.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Vercel</h2>
+        <Link href='www.investloupt.com' ><h3 className="font-medium text-lg mb-1 tracking-tighter">Loupt</h3></Link>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          VP of Product
+          CTO & Co-Founder, 2023 — Present
         </p>
         <p>
-          I joined <a href="https://vercel.com/home">Vercel</a> early to grow{' '}
-          <a href="https://nextjs.org">Next.js</a> and our developer community.
-          I built our Developer Relations team to teach our community about our
-          products.
+          As the Technical Co-Founder of Loupt, a Regulation Crowdfunding social media platform, I'm working to democratize access to investment opportunities:
         </p>
         <ul>
           <li>
-            In 2021, I was promoted to Director of DevRel. We{' '}
-            <a href="https://twitter.com/kelseyhightower/status/1105985400110112768">
-              translated customer pain
-            </a>{' '}
-            back into the product roadmap. We spoke at{' '}
-            <Link href="/blog/nextjs-conf-2022-recap">conferences</Link>, wrote
-            blog posts, and created videos. We built open-source examples and
-            contributed back to the product.
+            Led the design, implementation, and deployment of scalable, secure, and user-friendly web applications using Next.js, Typescript, and PostgreSQL.
           </li>
           <li>
-            In 2022, I was promoted to VP of Developer Experience, now also
-            leading our product documentation team. My team created a{' '}
-            <a href="https://nextjs.org/learn">new free course</a> to teach
-            Next.js, which had 17 million page views that year.{' '}
-            <a href="https://twitter.com/leeerob/status/1608900031859527682">
-              I shipped.
-            </a>{' '}
-            I partnered with our open-source community, collaborating with
-            frameworks like{' '}
-            <a href="https://vercel.com/docs/frameworks/nuxt">Nuxt</a> and{' '}
-            <a href="https://astro.build/blog/vercel-official-hosting-partner/">
-              Astro
-            </a>{' '}
-            and sponsoring individuals and projects.
+            Held regular development SCRUM meetings, fostering a collaborative and productive team environment.
           </li>
           <li>
-            In 2023, I was promoted to VP of Product, now also leading Product
-            Management.
+            Implemented and enforced coding standards and best practices, ensuring high-quality code and maintainability.
+          </li>
+          <li>
+            Implement new technologies to maximize our velocity, including Railway, Drizzle, and Neon.
+          </li>
+          <li  >
+              <em>Aside from all the CTO stuff, I still spend 90% of every day in my IDE. </em>
           </li>
         </ul>
-        <p>
-          Since I joined Vercel in 2020, Next.js active developers have grown
-          1000%, now at ~900k. Next.js is now a top 10 software project on
-          GitHub with <Stars />. It's used by Walmart, ChatGPT, Starbucks, Okta,
-          Datastax, Notion, and <a href="https://nextjs.org/showcase">more</a>.
-        </p>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Hy-Vee</h2>
+       <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Amazon Robotics</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Senior Software Engineer, 2018 — 2020
+          Software Engineer Intern, Summer 2023
         </p>
         <p>
-          Hy-Vee, an almost 100-year-old grocery chain in the United States,
-          wanted to build a new version of their digital storefront. I joined a
-          team of <Link href="/blog/product-engineers">product engineers</Link>{' '}
-          working across web and mobile to rebuild their legacy .NET application
-          (~500k MAU) with React and React Native.
+          At Amazon Robotics, I developed a serverless dashboard for systems testing results as part of the QA Automation team:
         </p>
-        <p>
-          On the frontend, I led our move from a custom webpack and React
-          configuration to Next.js and the latest React patterns. In the
-          process, I shared my learnings online, helping educate members of the
-          React and Next.js community by creating courses.
-        </p>
-        <p>
-          Throughout my two years, I was able to work on some hard problems:
-          decoupling a decade old monolith into microservices, working with a
-          federated GraphQL API, learning and occasionally managing a Kubernetes
-          cluster, building and implementing a design system, incrementally
-          migrating individual components and routes to a new framework and
-          infrastructure, and more.
-        </p>
+        <ul>
+          <li>
+            Modeled, designed, and implemented a serverless dashboard using AWS services, including Lambda, API Gateway, and DynamoDB, to display test results and metrics.
+          </li>
+          <li>
+            Leveraged AWS' Infrastructure-As-Code framework- the Cloud Development Kit (CDK) to enforce secure-by-default constructs, track changes in infrastructure, and enable one-click deployment.
+          </li>
+            {/* Demonstrated extensive experience with AWS services, including API Gateway, Lambda, S3, Route53, and IAM, demonstrating proficiency in cloud architecture. */}
+          <li>
+            Completed the project two weeks ahead of schedule, allowing time for design iterations and user-focused improvements.
+          </li>
+        </ul>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Workiva</h2>
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Structural Services</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer, 2015 — 2018
+          Software Engineer, 2020 — 2023
         </p>
         <p>
-          Workiva ($WK) is a cloud platform for data reporting and compliance.
-          During my time at Workiva, I gained my first production experience
-          using React. I worked on tooling to help predict and alert and
-          regressions in our SaaS platform, building a product similar to
-          open-source tools like Sentry.
+          At Structural Services, I led the development of device interaction software for an AI-powered system in the construction industry:
         </p>
+        <ul>
+          <li>
+            Crafted multithreaded C++ programs to handle real-time data from various sensors, including cameras and GPS systems, significantly improving wireless data processing and display. 
+          </li>
+          <li>
+            Integrated multiple third-party device libraries, including those for computer vision cameras, SBG Systems IMU/GPS, and Micro-Epsilon Lidar systems.
+          </li>
+          <li>
+            Developed software for centimeter-accurate GPS tracking using real-time kinematic positioning (RTK), pushing the boundaries of location accuracy in our applications.
+          </li>
+          <li  >
+              <em>Some of my best work came while I was working at Structural Services- they let me play with some nice expensive equipment. To this day, the interaction library for the SBG Ellipse IMU is likely the most complex single executable I have ever made.</em>
+          </li>
+        </ul>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Notable Projects</h2>
+
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">CV Hazard Detection Model</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Python, OpenCV, Keras, AWS SageMaker | Lehigh Capstone - Fall 2023
+        </p>
+        <p>
+          For my Lehigh Capstone project, I developed an advanced computer vision model for hazard detection:
+        </p>
+        <ul>
+          <li>
+            Fine-tuned YOLOv5 object detection model to significantly enhance performance for niche applications like detecting cars, pedestrians, and obstacles for cyclists.
+          </li>
+          <li>
+            Utilized diverse datasets, including KITTI and manually collected data, to train the model for various scenarios.
+          </li>
+          <li>
+            Achieved over 200x improvement in performance on nighttime headlight-facing captures, pushing the boundaries of low-light object detection.
+          </li>
+          <li>
+            Implemented the Luxonis DepthAI Python library for the user-facing application, bridging the gap between advanced AI and practical usability.
+          </li>
+        </ul>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">Community Impact</h2>
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">Eagle Scout Project</h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Community Service | 2019
+        </p>
+        <p>
+          For my Eagle Scout project, I led a community service initiative to build sitting benches outside the local Hudson Food Pantry:
+        </p>
+        <ul>
+          <li>
+            Coordinated and led a team of volunteers, honing my leadership and team management skills.
+          </li>
+          <li>
+            Managed the project from conception to completion, including planning, fundraising, and execution.
+          </li>
+          <li>
+            Collaborated closely with local community leaders and the food pantry to ensure the project met their needs and expectations.
+          </li>
+        </ul>
       </div>
     </section>
   );

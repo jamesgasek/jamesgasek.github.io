@@ -7,12 +7,12 @@ const navItems = {
   '/work': {
     name: 'work',
   },
-  '/blog': {
-    name: 'blog',
+  '/contact': {
+    name: 'contact',
   },
-  '/guestbook': {
-    name: 'guestbook',
-  },
+  // '/guestbook': {
+  //   name: 'guestbook',
+  // },
 };
 
 export function Navbar() {

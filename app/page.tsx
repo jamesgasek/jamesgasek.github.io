@@ -8,15 +8,13 @@ import reactathon from 'public/images/home/reactathon.jpg';
 import ship from 'public/images/home/ship.jpg';
 import filming from 'public/images/home/filming.jpg';
 import meetups from 'public/images/home/meetups.jpg';
-import vercel from 'public/images/home/vercel.jpg';
-import avatar from 'app/avatar.jpg';
-import ViewCounter from 'app/blog/view-counter';
+// import ViewCounter from 'app/blog/view-counter';
 import { PreloadResources } from 'app/preload';
-import {
-  getLeeYouTubeSubs,
-  getVercelYouTubeSubs,
-  getViewsCount,
-} from 'app/db/queries';
+// import {
+//   // getLeeYouTubeSubs,
+//   // getVercelYouTubeSubs,
+//   getViewsCount,
+// } from 'app/db/queries';
 
 function Badge(props) {
   return (
@@ -87,56 +85,56 @@ function ChannelLink({ img, link, name }) {
   );
 }
 
-async function Subs({ name }: { name: string }) {
-  noStore();
-  let subscribers;
-  if (name === '@leerob') {
-    subscribers = await getLeeYouTubeSubs();
-  } else {
-    subscribers = await getVercelYouTubeSubs();
-  }
+// async function Subs({ name }: { name: string }) {
+//   noStore();
+//   let subscribers;
+//   if (name === '@leerob') {
+//     subscribers = 100
+//   } else {
+//     subscribers = 100
+//   }
 
-  return (
-    <p className="text-neutral-600 dark:text-neutral-400">
-      {subscribers} subscribers
-    </p>
-  );
-}
+//   return (
+//     <p className="text-neutral-600 dark:text-neutral-400">
+//       {subscribers} subscribers
+//     </p>
+//   );
+// }
 
-function BlogLink({ slug, name }) {
-  return (
-    <div className="group">
-      <a
-        href={`/blog/${slug}`}
-        className="flex w-full items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800"
-      >
-        <div className="flex flex-col">
-          <p className="font-medium text-neutral-900 dark:text-neutral-100">
-            {name}
-          </p>
-          <Suspense fallback={<p className="h-6" />}>
-            <Views slug={slug} />
-          </Suspense>
-        </div>
-        <div className="transform text-neutral-700 transition-transform duration-300 group-hover:-rotate-12 dark:text-neutral-300">
-          <ArrowIcon />
-        </div>
-      </a>
-    </div>
-  );
-}
+// function BlogLink({ slug, name }) {
+//   return (
+//     <div className="group">
+//       <a
+//         href={`/blog/${slug}`}
+//         className="flex w-full items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800"
+//       >
+//         <div className="flex flex-col">
+//           <p className="font-medium text-neutral-900 dark:text-neutral-100">
+//             {name}
+//           </p>
+//           <Suspense fallback={<p className="h-6" />}>
+//             <Views slug={slug} />
+//           </Suspense>
+//         </div>
+//         <div className="transform text-neutral-700 transition-transform duration-300 group-hover:-rotate-12 dark:text-neutral-300">
+//           <ArrowIcon />
+//         </div>
+//       </a>
+//     </div>
+//   );
+// }
 
-async function Views({ slug }: { slug: string }) {
-  let views = await getViewsCount();
-  return <ViewCounter allViews={views} slug={slug} />;
-}
+// async function Views({ slug }: { slug: string }) {
+//   let views = await getViewsCount();
+//   return <ViewCounter allViews={views} slug={slug} />;
+// }
 
 export default function Page() {
   return (
     <section>
       <PreloadResources />
       <h1 className="mb-8 text-2xl font-medium tracking-tighter">
-        hey, I'm leerob 👋
+        hey, I'm James 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`I'm a frontend developer, optimist, and community builder. I currently `}
@@ -252,7 +250,7 @@ export default function Page() {
           and workshops. You can watch some of my favorites below.
         </p>
       </div>
-      <div className="my-8 flex w-full flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+      {/* <div className="my-8 flex w-full flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
         <ChannelLink
           img={avatar}
           name="@leerob"
@@ -263,7 +261,7 @@ export default function Page() {
           name="@vercel"
           link="https://www.youtube.com/@vercelhq"
         />
-      </div>
+      </div> */}
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           Over the past decade, I've written content on my blog and newsletter.
@@ -272,14 +270,14 @@ export default function Page() {
           career, sharing knowledge along the way.
         </p>
       </div>
-      <div className="my-8 flex w-full flex-col space-y-4">
+      {/* <div className="my-8 flex w-full flex-col space-y-4">
         <BlogLink
           name="What Makes A Great Developer Experience?"
           slug="developer-experience"
         />
         <BlogLink name="What is Developer Relations?" slug="devrel" />
         <BlogLink name="The Story of Heroku" slug="heroku" />
-      </div>
+      </div> */}
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           I invest small angel checks into early stage startups building tools

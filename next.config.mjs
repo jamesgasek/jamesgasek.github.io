@@ -6,7 +6,7 @@ export const sql = postgres(process.env.POSTGRES_URL, {
 
 const nextConfig = {
   output: 'export',
-  basePath: "/nextjs-github-pages",
+  // basePath: "/nextjs-github-pages",
   // experimental: {
   //   ppr: true,
   // },

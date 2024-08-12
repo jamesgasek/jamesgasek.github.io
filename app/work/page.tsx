@@ -15,7 +15,7 @@ export default function WorkPage() {
           I'm dedicated to pushing the boundaries of software engineering and making a significant impact in the tech industry. Here's an overview of my professional journey and key projects.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <Link href='www.investloupt.com' ><h3 className="font-medium text-lg mb-1 tracking-tighter">Loupt</h3></Link>
+        <Link href='https://www.investloupt.com' ><h3 className="font-medium text-lg mb-1 tracking-tighter">Loupt</h3></Link>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           CTO & Co-Founder, 2023 — Present
         </p>

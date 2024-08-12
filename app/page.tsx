@@ -146,7 +146,7 @@ export default function Page() {
 
           <img
             alt="Next.js logomark"
-            src="/nextjs-github-pages/louptFilled.svg"
+            src="/louptFilled.svg"
             className="!mr-1"
             width="14"
             height="14"

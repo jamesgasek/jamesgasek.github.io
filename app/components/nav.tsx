@@ -10,9 +10,9 @@ const navItems = {
   '/contact': {
     name: 'contact',
   },
-  // '/guestbook': {
-  //   name: 'guestbook',
-  // },
+  '/uses': {
+    name: 'uses',
+  },
 };
 
 export function Navbar() {

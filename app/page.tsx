@@ -64,7 +64,7 @@ function ChannelLink({ img, link, name }) {
             />
             <div className="relative -right-10 -top-6 inline-flex h-6 w-6 items-center rounded-full border border-neutral-200 bg-white p-1 dark:border-neutral-700">
               <svg width="15" height="11" role="img" aria-label="YouTube logo">
-                <use href="/sprite.svg#youtube" />
+                <use href="/nextjs-github-pages/sprite.svg#youtube" />
               </svg>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function Page() {
 
           <img
             alt="Next.js logomark"
-            src="/louptFilled.svg"
+            src="/nextjs-github-pages/louptFilled.svg"
             className="!mr-1"
             width="14"
             height="14"

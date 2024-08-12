@@ -6,17 +6,17 @@ import { Navbar } from './components/nav';
 // import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('jamesgasek.github.io'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'James Gasek',
+    template: '%s | James Gasek',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'James Gasek',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://jamesgasek.github.io',
+    siteName: 'James Gasek',
     locale: 'en_US',
     type: 'website',
   },
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'James Gasek',
     card: 'summary_large_image',
   },
-  verification: {
-    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
-    yandex: '14d2e73487fa6c71',
-  },
+  // verification: {
+  //   google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+  //   yandex: '14d2e73487fa6c71',
+  // },
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(' ');

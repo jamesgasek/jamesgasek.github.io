@@ -6,13 +6,6 @@ export const metadata: Metadata = {
   description: 'Get in touch with me.',
 };
 
-// async function Stars() {
-//   let res = await fetch('https://api.github.com/repos/vercel/next.js');
-//   let json = await res.json();
-//   let count = Math.round(json.stargazers_count / 1000);
-//   return `${count}k stars`;
-// }
-
 export default function WorkPage() {
   return (
     <section>

@@ -6,7 +6,7 @@ import { Navbar } from './components/nav';
 // import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('jamesgasek.github.io'),
+  metadataBase: new URL('https://jamesgasek.github.io'),
   title: {
     default: 'James Gasek',
     template: '%s | James Gasek',

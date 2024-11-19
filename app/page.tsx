@@ -140,7 +140,7 @@ export default function Page() {
         {` I'm a web and embedded software developer, and I'm passionate about building software that makes a difference. I
          currently `}
         <Link href="/work">work</Link>
-        {` at a FinTech startup called `}
+        {` in the greater Boston area as a SWE at Amazon Robotics. Some projects of mine include `}
         <span className="not-prose">
           <Badge href="https://www.investloupt.com">
 
@@ -151,10 +151,25 @@ export default function Page() {
             width="14"
             height="14"
           />
-           Loupt 
+          Loupt
           </Badge>
         </span>
-        {`, a Regulation Crowdfunding social media platform that democratizes access to investment opportunities. `}
+        {`, a Regulation Crowdfunding platform that democratizes access to investment opportunities, as well as my Workout app, `}
+
+        <span className="not-prose">
+          <Badge href="/newtonnotes">
+
+          <img
+            alt="Newton Notes logomark"
+            src="/newtonnotes.png"
+            className="!mr-1"
+            width="14"
+            height="14"
+          />
+         Newton Notes 
+          </Badge>
+        </span>
+        {`.`}
 
       </p>
       {/* <div className="prose prose-neutral ">
@@ -195,7 +210,7 @@ export default function Page() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/jgasek"
+            href="https://twitter.com/jamesgasek"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">follow me</p>

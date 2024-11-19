@@ -11,7 +11,12 @@ export default function WorkPage() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">contact</h1>
       <div className="prose prose-neutral dark:prose-invert">
-<p>
+{/* <p>
+  <Link href="mailto:james@gasek.net">james@gasek.net</Link>
+  <Link href="https://www.linkedin.com/in/devjamesgasek">linkedin</Link>
+  <Link href="https://www.x.com/jamesgasek">X</Link>
+</p> */}
+<p className="flex flex-col gap-4">
   <Link href="mailto:james@gasek.net">james@gasek.net</Link>
   <Link href="https://www.linkedin.com/in/devjamesgasek">linkedin</Link>
   <Link href="https://www.x.com/jamesgasek">X</Link>

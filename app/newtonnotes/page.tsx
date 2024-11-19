@@ -36,7 +36,7 @@ export default function HomePage() {
             <h2 className="font-medium text-xl mb-4 tracking-tighter">Features</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-medium text-lg mb-2">Stupid simple</h3>
+                <h3 className="font-medium text-lg mb-2">Stupid Simple</h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
                   The simplest workout app available. With its intuitive UI, lightweight size, and focused features, it's the obvious choice for a workout tracker that just gets out of the way.
                 </p>
@@ -54,7 +54,7 @@ export default function HomePage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-medium text-lg mb-2">Targeted functionality</h3>
+                <h3 className="font-medium text-lg mb-2">Targeted Functionality</h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
                   No advertisements, subscription fees, or tacky AI features. Your purchase helps steer the direction of the app and suggest new features.
                 </p>

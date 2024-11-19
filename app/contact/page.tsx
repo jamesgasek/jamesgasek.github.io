@@ -13,6 +13,8 @@ export default function WorkPage() {
       <div className="prose prose-neutral dark:prose-invert">
 <p>
   <Link href="mailto:james@gasek.net">james@gasek.net</Link>
+  <Link href="https://www.linkedin.com/in/devjamesgasek">linkedin</Link>
+  <Link href="https://www.x.com/jamesgasek">X</Link>
 </p>
 </div>
 </section>

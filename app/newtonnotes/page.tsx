@@ -3,7 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Newton Notes',
+  title: {
+    absolute: 'Newton Notes', // This will override the template
+  },
   description: 'The most intuitive workout companion and tracker available.',
 };
 

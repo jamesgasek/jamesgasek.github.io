@@ -26,7 +26,7 @@ export default function HomePage() {
             The most intuitive workout companion and tracker available.
           </p>
           <Link 
-            href="itms-apps://"
+            href="https://apps.apple.com/us/app/newton-notes/id6738072808"
             className="bg-neutral-900 dark:bg-neutral-100 text-neutral-100 dark:text-neutral-900 px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity"
           >
             Download on the App Store

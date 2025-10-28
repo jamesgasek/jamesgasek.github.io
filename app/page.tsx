@@ -170,17 +170,7 @@ export default function Page() {
           </Badge>
         </span>
         {`.`}
-
       </p>
-      {/* <div className="prose prose-neutral ">
-        <img
-            alt="Next.js logomark"
-            src="/robot.png"
-            className="!mr-1"
-            // width="14"
-            // height="14"
-          />
-      </div> */}
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>

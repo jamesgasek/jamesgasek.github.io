@@ -2,8 +2,8 @@
 
 export default async function sitemap() {
 
-  let routes = ['', '/contact', '/uses', '/work'].map((route) => ({
-    url: `https://jamesgasek.github.io${route}`,
+  let routes = ['', '/contact', '/uses', '/work', '/resume/gasekjames.pdf'].map((route) => ({
+    url: `https://www.gasek.net${route}`,
     lastModified: new Date().toISOString().split('T')[0],
   }));
 

@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://jamesgasek.github.io/sitemap.xml',
-    host: 'https://jamesgasek.github.io',
+    sitemap: 'https://www.gasek.net/sitemap.xml',
+    host: 'https://www.gasek.net',
   };
 }

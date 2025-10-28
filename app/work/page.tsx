@@ -12,117 +12,158 @@ export default function WorkPage() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm dedicated to pushing the boundaries of software engineering and making a significant impact in the tech industry. Here's an overview of my professional journey and key projects.
+          I'm obsessed with tackling problems through applied AI, software development, and robotics. Here's an overview of my professional journey and key projects.
         </p>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <Link href='https://www.investloupt.com' ><h3 className="font-medium text-lg mb-1 tracking-tighter">Loupt</h3></Link>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          CTO & Co-Founder, 2023 — Present
-        </p>
-        <p>
-          As the Technical Co-Founder of Loupt, a Regulation Crowdfunding social media platform, I'm working to democratize access to investment opportunities:
-        </p>
-        <ul>
-          <li>
-            Led the design, implementation, and deployment of scalable, secure, and user-friendly web applications using Next.js, Typescript, and PostgreSQL.
-          </li>
-          <li>
-            Held regular development SCRUM meetings, fostering a collaborative and productive team environment.
-          </li>
-          <li>
-            Implemented and enforced coding standards and best practices, ensuring high-quality code and maintainability.
-          </li>
-          <li>
-            Implement new technologies to maximize our velocity, including Railway, Drizzle, and Neon.
-          </li>
-          <li  >
-              <em>Aside from all the CTO stuff, I still spend 90% of every day in my IDE. </em>
-          </li>
-        </ul>
-       <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Amazon Robotics</h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer Intern, Summer 2023
-        </p>
-        <p>
-          At Amazon Robotics, I developed a serverless dashboard for systems testing results as part of the QA Automation team:
-        </p>
-        <ul>
-          <li>
-            Modeled, designed, and implemented a serverless dashboard using AWS services, including Lambda, API Gateway, and DynamoDB, to display test results and metrics.
-          </li>
-          <li>
-            Leveraged AWS' Infrastructure-As-Code framework- the Cloud Development Kit (CDK) to enforce secure-by-default constructs, track changes in infrastructure, and enable one-click deployment.
-          </li>
-            {/* Demonstrated extensive experience with AWS services, including API Gateway, Lambda, S3, Route53, and IAM, demonstrating proficiency in cloud architecture. */}
-          <li>
-            Completed the project two weeks ahead of schedule, allowing time for design iterations and user-focused improvements.
-          </li>
-        </ul>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Structural Services</h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer, 2020 — 2023
-        </p>
-        <p>
-          At Structural Services, I led the development of device interaction software for an AI-powered system in the construction industry:
-        </p>
-        <ul>
-          <li>
-            Crafted multithreaded C++ programs to handle real-time data from various sensors, including cameras and GPS systems, significantly improving wireless data processing and display. 
-          </li>
-          <li>
-            Integrated multiple third-party device libraries, including those for computer vision cameras, SBG Systems IMU/GPS, and Micro-Epsilon Lidar systems.
-          </li>
-          <li>
-            Developed software for centimeter-accurate GPS tracking using real-time kinematic positioning (RTK), pushing the boundaries of location accuracy in our applications.
-          </li>
-          <li  >
-              <em>Some of my best work came while I was working at Structural Services- they let me play with some nice expensive equipment. To this day, the interaction library for the SBG Ellipse IMU is likely the most complex single executable I have ever made.</em>
-          </li>
-        </ul>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Notable Projects</h2>
 
-        <h3 className="font-medium text-lg mb-1 tracking-tighter">CV Hazard Detection Model</h3>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+
+        {/* Amazon Robotics - Full Time */}
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+          Amazon Robotics
+        </h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Software Engineer, Robotic Sortation Technology - ML / Optimization | Dec 2024 — Present
+        </p>
+        <p>
+          Led real-time ML and optimization systems for robotic package sortation at scale:
+        </p>
+        <ul>
+          <li>
+            Designed, built, and led growth of an LLM-powered AI agent framework to monitor key package processing metrics, perform optimizations, and fix configuration issues completely autonomously within robotic fulfillment centers.
+          </li>
+          <li>
+            Led implementation of a real-time predictive optimization framework to predict and reduce internal package recirculation inefficiencies. Delivered in first six months with millions in projected annual savings.
+          </li>
+          <li>
+            Implemented new data fetching strategy for fulfillment metrics dashboards, reducing feature development time by 60%.
+          </li>
+          <li>
+            Developed microservices in Go, Kotlin, and Scala on serverless AWS infrastructure with strict monitoring, testing, and uptime standards across global fulfillment centers.
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+
+        {/* Loupt */}
+        <Link href="https://www.investloupt.com">
+          <h3 className="font-medium text-lg mb-1 tracking-tighter">Loupt</h3>
+        </Link>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Technical Co-Founder, 2023 — Present
+        </p>
+        <p>
+          Building a Regulation Crowdfunding platform to democratize access to investment opportunities:
+        </p>
+        <ul>
+          <li>
+            Designed and deployed Node.js services and Next.js web application with PostgreSQL on ECS using AWS services.
+          </li>
+          <li>
+            Integrated third-party APIs for KYC/AML, payment processing, and marketing automation.
+          </li>
+          <li>
+            Led development team and collaborated closely with institutional investors and stakeholders.
+          </li>
+          <li>
+            Held regular Scrum meetings and enforced coding standards to maintain velocity and quality.
+          </li>
+          <li>
+            <em>Still spend 90% of my day in the IDE — building, shipping, and iterating.</em>
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+
+        {/* Amazon Robotics - Internship */}
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+          Amazon Robotics
+        </h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Software Engineer Intern, QA Automation | Summer 2023
+        </p>
+        <p>
+          Built a serverless React dashboard for QA regression tracking:
+        </p>
+        <ul>
+          <li>
+            Developed serverless React app using AWS CDK (Infrastructure as Code) for CI/CD and deployment.
+          </li>
+          <li>
+            Completed project weeks ahead of schedule and iterated based on end-user feedback.
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+
+        {/* Structural Services */}
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+          Structural Services
+        </h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Software Engineer | Dec 2021 — May 2023
+        </p>
+        <p>
+          Led development of device interaction software for AI-powered construction assistive system:
+        </p>
+        <ul>
+          <li>
+            10×-ed wireless image transmission throughput using SIMD for real-time compression.
+          </li>
+          <li>
+            Built C++ interfaces for CV cameras, SBG Systems IMU/GPS, and Micro-Epsilon LiDAR.
+          </li>
+          <li>
+            Enabled centimeter-accurate GPS tracking using RTK positioning.
+          </li>
+          <li>
+            <em>
+              The SBG Ellipse IMU integration remains one of the most complex single executables I’ve ever written — and it ran flawlessly in the field.
+            </em>
+          </li>
+        </ul>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+
+        {/* Notable Projects */}
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">
+          Notable Projects
+        </h2>
+
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+          CV Hazard Detection Model
+        </h3>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Python, OpenCV, Keras, AWS SageMaker | Lehigh Capstone - Fall 2023
         </p>
         <p>
-          For my Lehigh Capstone project, I developed an advanced computer vision model for hazard detection:
+          Fine-tuned object detection for autonomous cyclist safety with Bethlehem startup, Skillion:
         </p>
         <ul>
           <li>
-            Fine-tuned YOLOv5 object detection model to significantly enhance performance for niche applications like detecting cars, pedestrians, and obstacles for cyclists.
+            Improved off-the-shelf model performance by 100x for cyclist hazard detection.
           </li>
           <li>
-            Utilized diverse datasets, including KITTI and manually collected data, to train the model for various scenarios.
-          </li>
-          <li>
-            Achieved over 200x improvement in performance on nighttime headlight-facing captures, pushing the boundaries of low-light object detection.
-          </li>
-          <li>
-            Implemented the Luxonis DepthAI Python library for the user-facing application, bridging the gap between advanced AI and practical usability.
+            Trained on KITTI, NTNU datasets, and custom Tesla Model S onboard camera data (labeled in-house).
           </li>
         </ul>
+
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">Community Impact</h2>
-        <h3 className="font-medium text-lg mb-1 tracking-tighter">Eagle Scout Project</h3>
+
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+          Newton Notes
+        </h3>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Community Service | 2019
+          SwiftUI | <Link href="https://gasek.net/newtonnotes" className="underline">gasek.net/newtonnotes</Link> | 2024
         </p>
         <p>
-          For my Eagle Scout project, I led a community service initiative to build sitting benches outside the local Hudson Food Pantry:
+          A minimalist, privacy-first gym workout tracker built in pure SwiftUI:
         </p>
         <ul>
           <li>
-            Coordinated and led a team of volunteers, honing my leadership and team management skills.
+            Open-source alternative to bloated fitness apps — no accounts, no tracking.
           </li>
           <li>
-            Managed the project from conception to completion, including planning, fundraising, and execution.
-          </li>
-          <li>
-            Collaborated closely with local community leaders and the food pantry to ensure the project met their needs and expectations.
+            Clean, intuitive UI focused on speed and simplicity.
           </li>
         </ul>
       </div>

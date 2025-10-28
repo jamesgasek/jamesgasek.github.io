@@ -75,9 +75,9 @@ export default function WorkPage() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         {/* Amazon Robotics - Internship */}
-        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+        <h1 className="font-medium text-lg mb-1 tracking-tighter">
           Amazon Robotics
-        </h3>
+        </h1>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Software Engineer Intern, QA Automation | Summer 2023
         </p>
@@ -115,19 +115,15 @@ export default function WorkPage() {
           <li>
             Enabled centimeter-accurate GPS tracking using RTK positioning.
           </li>
-          <li>
-            <em>
-              The SBG Ellipse IMU integration remains one of the most complex single executables I’ve ever written — and it ran flawlessly in the field.
-            </em>
-          </li>
         </ul>
 
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         {/* Notable Projects */}
-        <h2 className="font-medium text-xl mb-1 tracking-tighter">
-          Notable Projects
-        </h2>
+      {/* <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1> */}
+        <h1 className="font-medium text-2xl mb-8 mt-16 tracking-tighter">
+          projects
+        </h1>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         <h3 className="font-medium text-lg mb-1 tracking-tighter">
           CV Hazard Detection Model

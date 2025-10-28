@@ -137,10 +137,10 @@ export default function Page() {
         hey, I'm James 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {` I'm a web and embedded software developer, and I'm passionate about building software that makes a difference. I
+        {` I'm a web and embedded software developer, and I'm passionate about building solutions that make a difference. I
          currently `}
         <Link href="/work">work</Link>
-        {` in Boston building software at Amazon Robotics. Some projects of mine include `}
+        {` in Boston building software and applied AI at Amazon Robotics. Some projects of mine include `}
         <span className="not-prose">
           <Badge href="https://www.investloupt.com">
 
@@ -170,6 +170,7 @@ export default function Page() {
           </Badge>
         </span>
         {`.`}
+
       </p>
 
       <div className="prose prose-neutral dark:prose-invert">

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Uses',
   description:
-    "Here's what tech I'm currently using for coding, videos, and music.",
+    "Here's what tech I'm currently using for coding, life, and music.",
 };
 
 export default function UsesPage() {
@@ -15,9 +15,9 @@ export default function UsesPage() {
       <div className="prose prose-neutral dark:prose-invert">
         <h3 id="computer-office">Computer / Office</h3>
         <ul>
-          <li>13&quot; Macbook Air (M1, 2020)</li>
+          <li>13&quot; Macbook Pro M3</li>
           <li>38&quot; Samsung M70B</li>
-          <li>Logitech M270 Triathlon Mouse</li>
+          <li>Apple Magic Trackpad II</li>
           <li>Keychron K12</li>
           <li>B&W 200 series (V201)</li>
         </ul>
@@ -30,7 +30,7 @@ export default function UsesPage() {
             </a>
             ) */}
           </li>
-          <li>Extensions: vscodevim, Git Graph, vscode-icons, Rainbow CSV, Git Blame</li>
+          <li>Extensions: vscodevim, vscode-icons, Cline</li>
           <li>Theme: Hyper Term Theme</li>
           <li>Terminal: zsh (oh my zsh)</li>
           <li>Extensions: zsh-vi-mode, zsh-autosuggestions, zsh-syntax-highlighting</li>

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function WorkPage() {
   return (
     <section>
-      <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1>
+      <h1 className="font-medium text-2xl mb-8 tracking-tighter">work</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           I'm obsessed with tackling problems through applied AI, software development, and robotics. Here's an overview of my professional journey and key projects.

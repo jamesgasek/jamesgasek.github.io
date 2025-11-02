@@ -137,7 +137,7 @@ export default function Page() {
         hey, I'm James 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {` I'm a web and embedded software developer, and I'm passionate about building solutions that make a difference. I
+        {` I'm a software developer, and I'm passionate about building solutions that make a difference. I
          currently `}
         <Link href="/work">work</Link>
         {` in Boston building software and applied AI at Amazon Robotics. Some projects of mine include `}
@@ -154,7 +154,7 @@ export default function Page() {
           Loupt
           </Badge>
         </span>
-        {`, a Regulation Crowdfunding platform that democratizes access to investment opportunities, as well as my Workout app, `}
+        {`, a Crowdfunding platform, as well as my Workout app, `}
 
         <span className="not-prose">
           <Badge href="/newtonnotes">

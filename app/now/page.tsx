@@ -47,12 +47,12 @@ export default function Page() {
       <p className="prose prose-neutral dark:prose-invert">
         {`This is a `}
         <Link href="https://nownownow.com/about" target="_blank">now page</Link>
-        {`. It's a snapshot of what I'm currently focused on in my life and work.`}
+        {`. It's a snapshot of what I'm currently doing in my life.`}
       </p>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I recently moved to and have been exploring Boston (Southie), and have been prioritizing health by running and lifting- The Boston chapter of the Founders Run Club is awesome. I'm working to optimize my sleep.
+          I recently moved to and have been exploring Boston (Southie), and have been prioritizing health by running and lifting- The Boston chapter of the Founders Run Club is awesome.
         </p>
 
         <p>

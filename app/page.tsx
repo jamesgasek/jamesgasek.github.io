@@ -183,7 +183,7 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           I'm passionate about tackling hard problems, building delightful user experiences, and leading teams to success. I'm always looking for new opportunities to learn and grow, so if you're working on something cool,{' '} 
- <Link href="/contact">contact me!</Link>
+ <Link href="/contact">contact me.</Link>
         </p>
       </div>
      

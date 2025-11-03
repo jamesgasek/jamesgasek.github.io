@@ -137,7 +137,7 @@ export default function Page() {
         hey, I'm James 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {` I'm a software developer specializing in Applied AI and embedded systems. I
+        {` I'm a software developer specializing in applied AI and embedded systems. I
          currently `}
         <Link href="/work">work</Link>
         {` in Boston at Amazon Robotics. Some projects of mine include `}

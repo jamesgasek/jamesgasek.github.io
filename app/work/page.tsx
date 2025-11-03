@@ -25,7 +25,7 @@ export default function WorkPage() {
           Software Engineer, Robotic Sortation Technology - ML / Optimization | Dec 2024 — Present
         </p>
         <p>
-          Led real-time ML and optimization systems for robotic package sortation at scale:
+          Leading real-time ML and optimization systems for robotic package sortation at scale:
         </p>
         <ul>
           <li>

@@ -140,7 +140,7 @@ export default function Page() {
         {` I'm a software developer specializing in Applied AI and embedded systems. I
          currently `}
         <Link href="/work">work</Link>
-        {` in Boston building software and applied AI at Amazon Robotics. Some projects of mine include `}
+        {` in Boston at Amazon Robotics. Some projects of mine include `}
         <span className="not-prose">
           <Badge href="https://www.investloupt.com">
 

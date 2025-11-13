@@ -47,12 +47,12 @@ export default function Page() {
       <p className="prose prose-neutral dark:prose-invert">
         {`This is a `}
         <Link href="https://nownownow.com/about" target="_blank">now page</Link>
-        {`. It's a snapshot of what I'm currently doing in my life.`}
+        {`. It's a snapshot of what I'm currently focused on in my life and work.`}
       </p>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I recently moved to and have been exploring Boston (Southie), and have been prioritizing health by running and lifting- The Boston chapter of the Founders Run Club is awesome.
+          I live in South Boston, and have been prioritizing health by running and lifting- The Boston chapter of the Founders Run Club is awesome.
         </p>
 
         <p>
@@ -60,7 +60,7 @@ export default function Page() {
         </p>
 
         <p>
-          Lately, i've been experimenting with and enamored by AI- driven products and UX's. It's obvious we're at the cusp of a huge paradigm shift. The skill of effectively 'garnishing' LLMs with optimized tools and context will be invaluable.
+          Lately, i've been experimenting with AI- driven products and UX's. To me, it's obvious we're at the cusp of a huge paradigm shift. 
         </p>
       </div>
 

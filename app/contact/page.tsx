@@ -15,6 +15,7 @@ export default function WorkPage() {
   <Link href="mailto:james@gasek.net">james@gasek.net</Link>
   <Link href="https://www.linkedin.com/in/devjamesgasek">linkedin</Link>
   <Link href="https://www.x.com/jamesgasek">X</Link>
+  <Link href="/contact/schedule">schedule a meeting</Link>
 </p>
 </div>
 </section>

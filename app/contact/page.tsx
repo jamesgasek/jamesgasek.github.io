@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import CalPopup from './CalPopup';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -12,10 +13,10 @@ export default function WorkPage() {
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">contact</h1>
       <div className="prose prose-neutral dark:prose-invert">
 <p className="flex flex-col gap-4">
+  <CalPopup />
   <Link href="mailto:james@gasek.net">james@gasek.net</Link>
   <Link href="https://www.linkedin.com/in/devjamesgasek">linkedin</Link>
   <Link href="https://www.x.com/jamesgasek">X</Link>
-  <Link href="/contact/schedule">schedule a meeting</Link>
 </p>
 </div>
 </section>

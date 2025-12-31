@@ -57,13 +57,13 @@ const nextConfig = {
 
 const ContentSecurityPolicy = `
     default-src 'self' vercel.live;
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' cdn.vercel-insights.com vercel.live va.vercel-scripts.com assets.calendly.com;
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' cdn.vercel-insights.com vercel.live va.vercel-scripts.com assets.calendly.com app.cal.com;
     style-src 'self' 'unsafe-inline';
     img-src * blob: data:;
     media-src 'none';
     connect-src *;
     font-src 'self' data:;
-    frame-src 'self' *.codesandbox.io vercel.live calendly.com;
+    frame-src 'self' *.codesandbox.io vercel.live calendly.com app.cal.com cal.com;
 `;
 
 const securityHeaders = [

@@ -204,7 +204,7 @@ export default function Page() {
             href="https://twitter.com/jamesgasek"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">follow me</p>
+            <p className="ml-2 h-7">contact me</p>
           </a>
         </li>
 

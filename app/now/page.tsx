@@ -67,7 +67,7 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+          Last updated: November 2025
         </p>
       </div>
     </section>

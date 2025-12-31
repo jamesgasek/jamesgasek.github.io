@@ -15,10 +15,7 @@ const navItems = {
   },
   '/contact': {
     name: 'contact',
-  },
-  '/uses': {
-    name: 'uses',
-  },
+  }
 };
 
 export function Navbar() {

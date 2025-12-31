@@ -60,7 +60,7 @@ export default function Page() {
         </p>
 
         <p>
-          Lately, i've been experimenting with AI- driven products and UX's. To me, it's obvious we're at the cusp of a huge paradigm shift. 
+          Lately, I've been experimenting with AI- driven products and UX's. To me, it's obvious we're at the cusp of a huge paradigm shift. 
         </p>
       </div>
 

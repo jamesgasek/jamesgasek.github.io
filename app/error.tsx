@@ -10,13 +10,19 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log the error to an error reporting service
     console.error(error);
   }, [error]);
 
   return (
     <div>
-      <p>Oh no, something went wrong... maybe refresh?</p>
+      <p>Oh no, something went wrong.</p>
+      <button
+        type="button"
+        onClick={reset}
+        className="mt-4 px-3 py-2 border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded text-sm"
+      >
+        Try again
+      </button>
     </div>
   );
 }

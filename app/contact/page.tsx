@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Get in touch with me.',
 };
 
-export default function WorkPage() {
+export default function ContactPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">contact</h1>

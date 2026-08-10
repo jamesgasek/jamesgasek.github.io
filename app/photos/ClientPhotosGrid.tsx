@@ -18,7 +18,8 @@ function cldUrl(publicId: string, transforms: string) {
 export const ClientPhotosGrid: React.FC = () => {
   const [photos, setPhotos] = useState<CloudinaryAsset[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedPhoto, setSelectedPhoto] = useState<CloudinaryAsset | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const selectedPhoto = selectedIndex === null ? null : photos[selectedIndex];
 
   useEffect(() => {
     fetch(`https://res.cloudinary.com/${CLOUD_NAME}/image/list/display.json`)
@@ -28,12 +29,20 @@ export const ClientPhotosGrid: React.FC = () => {
       .finally(() => setLoading(false));
   }, []);
 
+  // wraps around at both ends
+  const step = (delta: number) =>
+    setSelectedIndex((i) => (i === null ? i : (i + delta + photos.length) % photos.length));
+
   useEffect(() => {
-    if (!selectedPhoto) return;
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setSelectedPhoto(null);
+    if (selectedIndex === null) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSelectedIndex(null);
+      else if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'ArrowRight') step(1);
+    };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
-  }, [selectedPhoto]);
+  }, [selectedIndex, photos.length]);
 
   if (loading) return <div className="text-center py-8">Loading photos...</div>;
   if (photos.length === 0) return <div className="text-center py-8">No photos found.</div>;
@@ -41,11 +50,11 @@ export const ClientPhotosGrid: React.FC = () => {
   return (
     <div>
       <div className="grid grid-cols-3 gap-4 h-full">
-        {photos.map((photo) => (
+        {photos.map((photo, index) => (
           <div
             key={photo.public_id}
             className="shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-            onClick={() => setSelectedPhoto(photo)}
+            onClick={() => setSelectedIndex(index)}
           >
             <div className="relative overflow-hidden">
               <img
@@ -62,10 +71,24 @@ export const ClientPhotosGrid: React.FC = () => {
       {selectedPhoto && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
-          onClick={() => setSelectedPhoto(null)}
+          onClick={() => setSelectedIndex(null)}
         >
-          <div className="relative max-w-4xl max-h-full p-4">
+          {photos.length > 1 && (
+            <button
+              aria-label="Previous photo"
+              className="absolute left-2 sm:left-6 z-10 p-3 text-3xl text-white/70 hover:text-white transition-colors"
+              onClick={(e) => {
+                e.stopPropagation();
+                step(-1);
+              }}
+            >
+              ‹
+            </button>
+          )}
+
+          <div className="relative max-w-4xl max-h-full p-4" onClick={(e) => e.stopPropagation()}>
             <img
+              key={selectedPhoto.public_id}
               src={cldUrl(selectedPhoto.public_id, 'w_2400,c_limit,q_90,f_webp')}
               alt={selectedPhoto.public_id}
               className="w-auto h-auto max-w-full max-h-[90vh] object-contain"
@@ -78,6 +101,19 @@ export const ClientPhotosGrid: React.FC = () => {
               {new Date(selectedPhoto.created_at).toLocaleDateString()}
             </span>
           </div>
+
+          {photos.length > 1 && (
+            <button
+              aria-label="Next photo"
+              className="absolute right-2 sm:right-6 z-10 p-3 text-3xl text-white/70 hover:text-white transition-colors"
+              onClick={(e) => {
+                e.stopPropagation();
+                step(1);
+              }}
+            >
+              ›
+            </button>
+          )}
         </div>
       )}
     </div>

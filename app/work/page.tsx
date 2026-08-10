@@ -75,9 +75,9 @@ export default function WorkPage() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         {/* Amazon Robotics - Internship */}
-        <h1 className="font-medium text-lg mb-1 tracking-tighter">
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
           Amazon Robotics
-        </h1>
+        </h3>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Software Engineer Intern, QA Automation | Summer 2023
         </p>
@@ -119,10 +119,9 @@ export default function WorkPage() {
 
 
         {/* Notable Projects */}
-      {/* <h1 className="font-medium text-2xl mb-8 tracking-tighter">my work</h1> */}
-        <h1 className="font-medium text-2xl mb-8 mt-16 tracking-tighter">
+        <h2 className="font-medium text-2xl mb-8 mt-16 tracking-tighter">
           projects
-        </h1>
+        </h2>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         <h3 className="font-medium text-lg mb-1 tracking-tighter">

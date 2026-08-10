@@ -84,41 +84,27 @@ export default function Page() {
         </p>
       </div>
      
-      <div className="prose prose-neutral dark:prose-invert">
-{/*         <p>
-          I've worked with and advised companies on{' '}
-          <Link href="/blog/developer-marketing">developer marketing</Link>,{' '}
-          <Link href="/blog/devrel">developer relations</Link>, building
-          open-source communities, product-led growth, and more.
-        </p> */}
-      </div>
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
-          <a
+          <Link
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
             href="/contact"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">contact me</p>
-          </a>
+          </Link>
         </li>
-
-
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300"></ul>
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://gasek.net/resume"
+            href="https://www.gasek.net/resume"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">resume</p>
           </a>
         </li>
-      
       </ul>
     </section>
   );

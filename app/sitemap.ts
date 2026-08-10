@@ -6,7 +6,6 @@ export default async function sitemap() {
     '/now',
     '/photos',
     '/newtonnotes',
-    '/gasekjames.pdf',
   ].map((route) => ({
     url: `https://www.gasek.net${route}`,
     lastModified: new Date().toISOString().split('T')[0],

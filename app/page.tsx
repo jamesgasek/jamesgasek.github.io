@@ -99,7 +99,7 @@ export default function Page() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.gasek.net/resume"
+            href="https://www.gasek.net/resume/gasekjames.pdf"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">resume</p>

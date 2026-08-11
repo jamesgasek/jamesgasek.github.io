@@ -56,6 +56,7 @@ export default function RootLayout({
       <head>
         <script data-goatcounter="https://jamesgasekpage.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<link rel="alternate" type="application/atom+xml" title="James Gasek" href="/feed.xml" />
 <link
   rel="icon"
   href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>"

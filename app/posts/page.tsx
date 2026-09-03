@@ -45,6 +45,7 @@ export default async function PostsPage() {
         <a href="/feed.xml" className="underline underline-offset-2">
           via RSS
         </a>
+        {' · '}Hand written
       </p>
     </section>
   );

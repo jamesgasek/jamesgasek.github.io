@@ -2,7 +2,6 @@
 title: 'On Rich Sutton''s "The Bitter Lesson"'
 date: '2026-09-03'
 category: ai
-summary: 'Why betting on compute beats encoding our own understanding of a problem.'
 ---
 
 Last night, I met up with a friend working in a similar field, and we talked about some of the industry patterns we saw emerging and compared how our roles have changed in the last 24 months or so. We both spend a lot of time working with LLMs, "Prompt engineering" (Context engineering? Harness engineering?). Throughout our discussion, we eventually agreed that we'd find the most effective solution to often be to just "get out of the way"- my friend referenced Rich Sutton's ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) . 

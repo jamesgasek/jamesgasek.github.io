@@ -28,6 +28,10 @@ export default function Page() {
         </p>
 
         <p>
+          I just joined Boston Dynamics on the Atlas Applications Software team — long-horizon task planning and autonomy.
+        </p>
+
+        <p>
           Lately, I've been experimenting with AI- driven products and UX's. To me, it's obvious we're at the cusp of a huge paradigm shift. 
         </p>
       </div>
@@ -35,7 +39,7 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Last updated: November 2025
+          Last updated: October 2026
         </p>
       </div>
     </section>

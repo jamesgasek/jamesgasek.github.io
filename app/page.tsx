@@ -34,10 +34,10 @@ export default function Page() {
         hey, I'm James 👋
       </h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {` I'm a software developer specializing in applied AI and embedded systems. I
+        {` I'm a software developer specializing in applied AI, robotics, and embedded systems. I
          currently `}
         <Link href="/work">work</Link>
-        {` in Boston at Amazon Robotics. Some projects of mine include `}
+        {` at Boston Dynamics on the Atlas Applications Software team. Some projects of mine include `}
         <span className="not-prose">
           <Badge href="https://www.investloupt.com">
 
@@ -99,7 +99,7 @@ export default function Page() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.gasek.net/resume/gasekjames.pdf"
+            href="/gasekjames.pdf"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">resume</p>

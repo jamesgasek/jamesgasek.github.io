@@ -17,12 +17,22 @@ export default function WorkPage() {
 
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
+        {/* Boston Dynamics - Full Time */}
+        <h3 className="font-medium text-lg mb-1 tracking-tighter">
+          Boston Dynamics
+        </h3>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Staff Machine Learning Engineer, Atlas Applications Software | Sep 2026 — Present
+        </p>
+
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+
         {/* Amazon Robotics - Full Time */}
         <h3 className="font-medium text-lg mb-1 tracking-tighter">
           Amazon Robotics
         </h3>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer, Robotic Sortation Technology - ML / Optimization | Dec 2024 — Present
+          Software Development Engineer, Robotic Sortation Technology - ML / Optimization | Dec 2024 — Sep 2026
         </p>
         <p>
           Leading real-time ML and optimization systems for robotic package sortation at scale:
@@ -97,10 +107,10 @@ export default function WorkPage() {
 
         {/* Structural Services */}
         <h3 className="font-medium text-lg mb-1 tracking-tighter">
-          Structural Services
+          Structural Steel Technologies
         </h3>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-          Software Engineer | Dec 2021 — May 2023
+          Software Engineer | Dec 2021 — Jun 2023
         </p>
         <p>
           Led development of device interaction software for AI-powered construction assistive system:

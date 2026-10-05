@@ -10,10 +10,10 @@ export const metadata: Metadata = {
     default: 'James Gasek',
     template: '%s | James Gasek',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Robotics and applied AI. Developer, writer, and creator.',
   openGraph: {
     title: 'James Gasek',
-    description: 'Developer, writer, and creator.',
+    description: 'Robotics and applied AI. Developer, writer, and creator.',
     url: 'https://www.gasek.net',
     siteName: 'James Gasek',
     locale: 'en_US',
